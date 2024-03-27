@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID-CARD</title>
+    
+</head>
+<body>
+    <script>
+        var a = document.createElement("div");
+        a.style.border="8px solid white"
+        a.style.height="600px"
+        a.style.width="400px"
+        a.style.margin="0 auto"
+        a.style.borderRadius="20px"
+        a.style.backgroundImage="linear-gradient(to left top, #51e8c6, #6bde9b, #8bd16f, #aac245, #c8ae21, #e7a240, #f99961, #ff9582, #ffacba, #fec9e3, #f7e6f9, #ffffff)"
+        document.body.appendChild(a)
+        var b = document.createElement("img")
+        b.style.width="100%"
+        b.style.height="120px"
+        b.setAttribute("src","https://www.10000coders.co/assets/10000coders-logo.png?v=1.2")
+        a.appendChild(b)
+
+        // var c = document.createElement("div")
+        // c.style.justifyContent="center"
+        var d = document.createElement("img")
+        d.setAttribute("src","https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=")
+        d.style.height="150px"
+        d.style.width="150px"
+        d.style.marginLeft="130px"
+        d.style.marginTop="10px"
+        d.style.borderRadius="50%"
+        a.appendChild(d)
+        var e = document.createElement("h3")
+        e.innerHTML="VISHWANADULA VENKATESH"
+        e.style.textAlign="center"
+        a.appendChild(e)
+        var f = document.createElement("h3")
+        f.style.marginTop="20px"
+        f.style.display="inline-block"
+        f.style.marginLeft="20px"
+        f.innerHTML="Position: "
+        var g = document.createElement("p")
+        g.style.display="inline-block"
+        g.innerHTML="Manager"
+        a.appendChild(f)
+        a.appendChild(g) 
+
+        var z = document.createElement("br")
+        a.appendChild(z)
+
+        var h = document.createElement("h3")
+        h.style.marginTop="20px"
+        h.style.display="inline-block"
+        h.style.marginLeft="20px"
+        h.style.marginTop="100"
+        h.innerHTML="Associate ID:"
+        var i = document.createElement("p")
+        i.style.display="inline-block"
+        i.innerHTML="9745"
+        a.appendChild(h)
+        a.appendChild(i)
+
+        h.appendChild(z)
+
+        var j = document.createElement("h3")
+        j.style.marginTop="20px"
+        j.style.display="inline-block"
+        j.style.marginLeft="20px"
+        j.innerHTML="Mobile No:"
+        var k = document.createElement("p")
+        k.style.display="inline-block"
+        k.innerHTML="9741365874"
+        a.appendChild(j)
+        a.appendChild(k)
+
+        var l = document.createElement("h3")
+        l.style.marginTop="20px"
+        l.style.display="inline-block"
+        l.style.marginLeft="20px"
+        l.innerHTML="Blood Group :"
+        var m = document.createElement("p")
+        m.style.display="inline-block"
+        m.innerHTML="O-"
+        a.appendChild(l)
+        a.appendChild(m)
+    </script>
+</body>
+</html>
